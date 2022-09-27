@@ -7,14 +7,161 @@
 </div>
 
 <!- This variable sets name of browser tab  -->
-{% set project = "Stubby" %}
+{% set project = "Bell Schedule" %}
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Stubby Body</strong></h1>
-        <p class="text-secondary">Put your name here</p>
+        <h1 class="text-primary"><strong>Bell Schedule</strong></h1>
+        <p>
+            <br>
+            <br>
+            <strong>Monday, Tuesday, Thursday</strong>
+        </p>
+        <table>
+            <tr>
+                <th>Period</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>8:35</td>
+                <td>9:44</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>9:49</td>
+                <td>10:58</td>
+            </tr>
+            <tr>
+                <th>Break</th>
+                <td>10:58</td>
+                <td>11:08</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>11:13</td>
+                <td>12:22</td>
+            </tr>
+            <tr>
+                <th>Lunch</th>
+                <td>12:22</td>
+                <td>12:52</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>12:57</td>
+                <td>14:06</td>
+            </tr>
+            <tr>
+                <th>Office Hours</th>
+                <td>14:06</td>
+                <td>14:31</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>14:36</td>
+                <td>15:45</td>
+            </tr>
+        </table>
+
+        <p>
+            <br>
+            <br>
+            <strong>Wednesday</strong>
+        </p>
+        <table>
+            <tr>
+                <th>Period</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>9:55</td>
+                <td>10:53</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>10:58</td>
+                <td>11:56</td>
+            </tr>
+            <tr>
+                <th>Break</th>
+                <td>11:56</td>
+                <td>12:06</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>12:11</td>
+                <td>13:09</td>
+            </tr>
+            <tr>
+                <th>Lunch</th>
+                <td>13:09</td>
+                <td>13:39</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>13:44</td>
+                <td>14:42</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>14:47</td>
+                <td>15:45</td>
+            </tr>
+        </table>
+
+        <p>
+            <br>
+            <br>
+            <strong>Friday</strong>
+        </p>
+        <table>
+            <tr>
+                <th>Period</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>8:35</td>
+                <td>9:49</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>9:54</td>
+                <td>11:08</td>
+            </tr>
+            <tr>
+                <th>Break</th>
+                <td>11:08</td>
+                <td>11:18</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>11:23</td>
+                <td>12:37</td>
+            </tr>
+            <tr>
+                <th>Lunch</th>
+                <td>12:37</td>
+                <td>13:07</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>13:12</td>
+                <td>14:26</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>14:31</td>
+                <td>15:45</td>
+            </tr>
+        </table>
     </div>
 {% endblock %}
 

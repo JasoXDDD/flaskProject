@@ -21,6 +21,10 @@ def index():
 def stub():
     return render_template("stub.html")
 
+@app.route('/achievements/')  # connects /stub/ URL to stub() function
+def achievements():
+    return render_template("achievements.html")
+
 # this runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
